@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to the IMUNES blog"
 date: 2015-12-23 20:17:06 +0100
-comments: false
+comments: true
 ---
 
 This is the first of many posts about the IMUNES network emulation tool which
