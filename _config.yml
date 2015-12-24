@@ -13,7 +13,7 @@ url: http://imunes.github.io
 baseurl: ''
 
 # This can be '' to hide the Github nav button
-github: 'imunes/imunes'
+github: 'imunes/imunes.github.io'
 
 # Project homepage
 homepage: 'http://imunes.net'
@@ -31,7 +31,10 @@ disqus: 'imunes'
 comments: true
 
 permalink: /:year/:month/:title
+
+gems: [jekyll-paginate]
 paginate: 3
+paginate_path: "page:num"
 
 highlighter: pygments
 markdown: redcarpet
