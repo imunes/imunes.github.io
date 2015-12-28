@@ -11,7 +11,7 @@ as we implement new features and explain how IMUNES works internally.
 
 IMUNES is an efficient and fast IP network emulator that can run 100s and even
 1000s of virtual network nodes on one physical machine. Every virtual node has
-its own copy of the network stack, filesystem and separate process space for
+its own copy of the network stack, file system and separate process space for
 running applications. It provides a clean, consistent and repeatable environment
 for testbeds, laboratory environments for learning, honeypots and others.
 
@@ -25,7 +25,7 @@ The main prerequisites for fetching and installing IMUNES are **git** and **GNU
 make**. Currently two operating systems are supported:
 
 - FreeBSD (RELEASE > 9.3) and
-- various Linux flavours (recommended kernel > 3.19 for reasonable performance).
+- various Linux flavors (recommended kernel > 3.19 for reasonable performance).
 
 IMUNES is written in Tcl/Tk version 8.6 and the GUI and frontend is OS
 independent and can run on any supported platform. The main requirements for
@@ -51,7 +51,7 @@ the operating system:
 - On Linux IMUNES requires Docker (version 1.6 or greater), OpenvSwitch and
   nsenter to work properly.
 
-After all prerequsites are available, the installation is performed as follows:
+After all prerequisites are available, the installation is performed as follows:
 
 ```console
 git clone https://github.com/imunes/imunes.git
@@ -62,7 +62,7 @@ make install
 License
 =======
 
-IMUNES is licensed under te very permissive and liberal [BSD
+IMUNES is licensed under the very permissive and liberal [BSD
 license](http://www.linfo.org/bsdlicense.html) and is copyrighted as a product
 of the [University of Zagreb, Croatia](http://unizg.hr) as stated
 [here](https://github.com/imunes/imunes/blob/master/COPYRIGHT). IMUNES was
@@ -76,5 +76,5 @@ the following organizations:
 
 - Ericsson Nikola Tesla Zagreb
 - Boeing Defense, Space and Security
-- FreeBSD / NLNet Foundation
+- FreeBSD / NLnet Foundation
 - ICSI / University California, Berkeley
