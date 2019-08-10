@@ -36,8 +36,8 @@ gems: [jekyll-paginate]
 paginate: 3
 paginate_path: "page:num"
 
-highlighter: pygments
-markdown: redcarpet
+highlighter: rouge
+markdown: kramdown
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
