@@ -32,7 +32,7 @@ comments: true
 
 permalink: /:year/:month/:title
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 3
 paginate_path: "page:num"
 
