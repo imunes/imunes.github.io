@@ -22,13 +22,13 @@ homepage: 'http://imunes.net'
 logo: 'http://imunes.net/images/imunes_logo.png'
 
 # Set this to your UA-# value, or '' to disable the block completely
-gaaccount: ''
+gaaccount: 'UA-66278371-1'
 
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: 'imunes'
-comments: true
+comments: false
 
 permalink: /:year/:month/:title
 
